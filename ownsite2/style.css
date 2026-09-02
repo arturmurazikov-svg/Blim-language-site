@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.blim {
+    background: linear-gradient(red, #222222);
+    color: white;
+    width: 100%;
+    min-height: 153px;
+    padding: 15px;
+    position: relative;
+}
+
+.blim h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 36px;
+    margin-top: 10px;
+    margin-left: 7px;
+}
+
+.blim h3 {
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.blim button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background: white;
+    border: none;
+    border-radius: 7px;
+}
+
+.blim img {
+    width: 30px;
+    height: 30px;
+}
+
+.span {
+    display: flex;
+    justify-content: center;
+    color: pink;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+
+/* blim 2 */
+
+
+.blim2 {
+    display: flex;
+    align-items: center;
+    color: white;
+    background: darkred;
+    width: auto;
+    height: 50px;
+    gap: 0px;
+}
+
+.blim2 a {
+    display: flex;   
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    margin-left: 220px;
+    border: 2px solid black;
+    background: #222222;
+    border-radius: 5px;
+}
+
+
+
+/* btns */
+
+
+.lvl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 10px;
+    width: 100%;
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+.lvl a {
+    text-decoration: none;
+    color: red;
+}
+
+.lvl button {
+    background-color: whitesmoke;
+    color: #4a5568;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    padding: 12px 16px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    width: 100%;
+    text-align: center;
+}
+
+.lvl button:hover {
+    border-color: #cbd5e0;
+    background-color: #f7fafc;
+}
+
+/* final */
+
+.finnal button {
+    background: red;
+    color: whitesmoke;
+    font-size: 15px;
+    width: 150px;
+    height: 30px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 688px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+
+.finnal p {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    color: gray;
+}
+
+
+/* conv 1 */
+
+.conv1 {
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: fit-content;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.conv1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.conv1 img {
+    width: 250px;
+    height: 200px;
+}
+
+.conv1 a {
+    display: flex;
+    justify-content: left;
+    color: red;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 5px;
+}
+
+.conv1 p {
+    display: flex;
+    justify-content: left;
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+
+.conversationbet {
+    background: white;
+    width: 100%;
+    max-width: 500px;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.conversationbet p {
+    background-color: white;
+    border-left: 4px solid red;
+    border-radius: 0 8px 8px 0;
+    padding: 12px 16px;
+    margin-bottom: 14px;
+    font-size: 16px;
+    line-height: 1.8;
+    color: grey;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.conversationbet p:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.conversationbet strong {
+    color: red;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+}
+
+
+.finconv a {
+    color: black;
+    text-decoration: none;
+}
